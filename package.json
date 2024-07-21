@@ -1,0 +1,15 @@
+{
+  "name": "typescript_concepts",
+  "version": "1.0.0",
+  "description": "A repo to understand how TypeScript works",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "shashikrs",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
