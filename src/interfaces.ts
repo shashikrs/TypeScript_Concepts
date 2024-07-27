@@ -1,13 +1,13 @@
-interface Named {
+interface INamed {
   name: string;
   outputName?: string;
 }
 
-interface Greetable extends Named {
+interface IGreetable extends INamed {
   greet(phrase: string): void;
 }
 
-let user1: Greetable;
+let user1: IGreetable;
 
 user1 = {
   name: "Dam",
@@ -18,7 +18,7 @@ user1 = {
 
 user1.greet("Hi");
 
-class Person implements Greetable {
+class Person implements IGreetable {
   name: string;
   constructor(name: string) {
     this.name = name;
